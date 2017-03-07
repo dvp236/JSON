@@ -1,6 +1,11 @@
-[
-  "Err1",
-  "Err2",
-  "err3",
-  "err5"
-]
+{
+	"status" : "200",
+	"success" : "its valid",
+
+	"errors" : [
+				  "Err1",
+				  "Err2",
+				  "err3",
+				  "err5"
+				]
+}
