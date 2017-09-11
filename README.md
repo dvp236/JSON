@@ -1,2 +1,4 @@
-# JSON
-Temp JSON array
+# uploads
+Repo for temperory uploads for test purpose. 
+
+
