@@ -513,10 +513,12 @@ VpaidAd.prototype.triggerEvent_ = function(value) {
 			break;
 		case 'AdImpression':
 			this.testLog_(value);
+      console.log("ad impression clicked - custom");
 			this.fireTestingPixel_(value);
 			this.eventCallbacks_[value]();
 			break;
 		case 'AdVideoStart':
+      console.log("ad impression clicked - custom");
 			this.testLog_(value+"dharmik");
 			this.fireTestingPixel_(value);
 			this.eventCallbacks_[value]();
@@ -524,6 +526,7 @@ VpaidAd.prototype.triggerEvent_ = function(value) {
 		case 'AdVideoFirstQuartile':
 			this.testLog_(value);
 			this.fireTestingPixel_(value+"dharmik");
+      console.log("ad impression clicked - custom");
 			this.eventCallbacks_[value]();
 			break;
 		case 'AdVideoMidpoint':
